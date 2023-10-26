@@ -9,7 +9,7 @@ def readme():
 
 setup(
     name='pbstool',
-    version='2.1',
+    version='2.2',
     description='A simple-to-use program for quickly batch creating job tasks based on the PBS job scheduling system (including OpenPBS, PBS Pro, and TORQUE) based on a command list.',
     long_description=readme(),
     long_description_content_type='text/markdown',
@@ -36,8 +36,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'pbstool = src.__main__:fastpbs',
-            'qsubs = src.__main__:qsubs'
+            'pbstool = pbstool.__main__:fastpbs',
+            'qsubs = pbstool.__main__:qsubs'
         ]
     },
     package_data={'': ['*.cfg', '*.xml', '*.txt', '*.py']}

@@ -19,6 +19,7 @@ class generate:
 #PBS -V
 #PBS -S /bin/bash
 cat $PBS_NODEFILE > /tmp/nodefile.$$
+cd $PBS_O_WORKDIR
 echo "------------------------------------------"
 echo 'Job identification: ' $PBS_QUEUE - $PBS_JOBID - $PBS_JOBNAME
 echo "------------------------------------------"
@@ -52,6 +53,7 @@ rm -rf /tmp/nodes.$$
 #PBS -V 
 #PBS -S /bin/bash
 cat $PBS_NODEFILE > /tmp/nodefile.$$
+cd $PBS_O_WORKDIR
 echo "------------------------------------------"
 echo 'Job identification: ' $PBS_QUEUE - $PBS_JOBID - $PBS_JOBNAME
 echo "------------------------------------------"

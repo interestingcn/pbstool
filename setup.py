@@ -9,7 +9,7 @@ def readme():
 
 setup(
     name='pbstool',
-    version='2.0',
+    version='2.1',
     description='A simple-to-use program for quickly batch creating job tasks based on the PBS job scheduling system (including OpenPBS, PBS Pro, and TORQUE) based on a command list.',
     long_description=readme(),
     long_description_content_type='text/markdown',

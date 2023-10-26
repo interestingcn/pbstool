@@ -35,7 +35,7 @@ def version_command():
  / ____/ /_/ (__  )/ / / /_/ / /_/ / /  
 /_/   /_.___/____//_/  \____/\____/_/   
 
-Version:2.0
+Version:2.1
 
 Author: Wangzt (interestingcn01@gmail.com)
 Bioinformatics Laboratory of South China Agricultural University
